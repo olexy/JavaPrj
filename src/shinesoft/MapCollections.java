@@ -10,6 +10,7 @@ public class MapCollections {
 		hm.put(113, "Adios");
 		hm.put(114, "Hola");
 		System.out.println(hm);
+		
 		hm.put(113, "Greta");
 		hm.put(115, "Hola");
 		hm.put(null, "USA");
@@ -25,6 +26,7 @@ public class MapCollections {
 		System.out.println(hm);
 		System.out.println(hm.size());
 		System.out.println(hm.containsKey(114));
+		System.out.println(hm.containsKey(120));
 		System.out.println(hm.containsValue("Hola"));
 		System.out.println(hm.isEmpty());
 	}
