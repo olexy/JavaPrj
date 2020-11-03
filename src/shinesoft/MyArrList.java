@@ -12,8 +12,18 @@ public class MyArrList {
 		{
 			System.out.println(s);
 		}
+		al1.add(10);
+		al1.add(null);
+		al1.add(10);
+		al1.add(null);
+		al1.add("10");
+		al1.add(45.26);
+		al1.add(false);
+		al1.add(null);
+		
+		al2.addAll(al1);
 		
 		System.out.println(al1);
-		System.out.println(al1);
+		System.out.println(al2);
 	}
 }
