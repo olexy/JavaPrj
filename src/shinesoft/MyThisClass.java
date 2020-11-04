@@ -1,3 +1,4 @@
+package shinesoft;
 class ThisKeyword
 {
     int id;//instances
